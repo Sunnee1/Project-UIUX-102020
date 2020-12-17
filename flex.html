@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>FlexBox</title>
+        <style>
+            .container{
+                background:#034001;
+                padding: 10px;
+                display:flex;
+                flex-direction: row-reverse;
+                /* height: 100px; */
+                justify-content: flex-end;
+                align-items: center;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+            .container>div{
+                padding:10px;
+                flex:1;
+                /* flex-basis: 100px; */
+                /* flex-basis: 13%; */
+            }
+            .container>div:nth-child(odd){
+                background-color: #F29F05;
+            }
+            .container>div:nth-child(even){
+                background-color: #F28705;
+            }
+            .container>div:first-child{
+                /* background-color: teal; */
+                font-weight: bold;
+            }
+            .container>div:last-child{
+                /* flex:3; */
+                /* margin-right: auto; */
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>Login</div>
+            <div>Home</div>
+            <div>About</div>
+            <div>Blog</div>
+            <div>Shop</div>
+            <div>Gallery</div>
+            <div>Logo</div>
+        </div>
+    </body>
+</html>
