@@ -31,9 +31,9 @@
             </ul>
         </nav>
         <div class="user-cart">
-            <li><a href="#">Username</a></li>
+            <div class="username"><li><a href="#">Username</a></li></div>
             <div class="price">Total Price: 00.00$ <i class="fas fa-shopping-cart fa x2"></i></div>
-            <p class="free-delivery">50.00$ to free delivery</p>
+            <div class="free-delivery">50.00$ to free delivery</div>
         </div>
     </div>
     <hr>
@@ -59,20 +59,26 @@
             <div class="box box-left">
             </div>
             <div class="icon cartplus-left">
-                <a href="#" class="btn">See more</a>
+                <div class="btn">
+                    <a href="#">See more</a>
+                </div>
                 <i class="fas fa-cart-plus fa-2x icon-cartplus"></i>
             </div>
 
             <div class="box box-center">
             </div>
             <div class="icon cartplus-center">
-                <a href="#" class="btn">See more</a>
+                <div class="btn">
+                    <a href="#">See more</a>
+                </div>
                 <i class="fas fa-cart-plus fa-2x icon-cartplus"></i>
             </div>
             <div class="box box-right">
             </div>
             <div class="icon cartplus-right">
-                <a href="#" class="btn">See more</a>
+                <div class="btn">
+                    <a href="#">See more</a>
+                </div>
                 <i class="fas fa-cart-plus fa-2x icon-cartplus"></i>
             </div>
             <div class="arrow arrow-right">
@@ -105,12 +111,12 @@
                 <div class="details-image">
                 </div>
                 <div class="details-paragraph">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, enim corporis esse,
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, enim corporis esse,
                         eveniet, laborum
                         quae fugit nam officiis tenetur inventore quis ipsam ipsum voluptas dignissimos deleniti dolore!
                         Eaque incidunt repellendus vero praesentium officiis, amet provident cum doloremque maxime
                         libero
-                        voluptas iste rerum, asperiores quidem aut aperiam, porro quasi architecto ex?</p>
+                        voluptas iste rerum, asperiores quidem aut aperiam, porro quasi architecto ex?
                 </div>
                 <span class="price2">Price: 00.00$</span>
                 <div class="quantity">
@@ -127,7 +133,6 @@
             <h2>Today's Article</h2>
             <h3>Vegan Pizza - Recipe</h3>
             <div class="todays-img">
-                <img src="./img/lunch.jpg" alt="">
             </div>
             <div class="article-p">
                 <p>
@@ -173,9 +178,9 @@
             <div class="author">
                 <p>Author</p>
             </div>
-            <div class="read-more">
+            <div class="next-one">
                 <a href="#">Next One</a>
-                <i class="fas fa-chevron-right"></i>
+                <i class="fas fa-chevron-right fa-2x"></i>
             </div>
         </section>
         <section class="article-related">
@@ -195,7 +200,7 @@
                 <div class="shop-cart4-div">
                     <i class="fas fa-shopping-cart fa x2 shop-cart3"></i>
                 </div>
-            </div>
+            </div>gi
         </section>
         <hr>
         <section class="about-us">
@@ -256,10 +261,14 @@
             <li><a href="#">Terms of delivery</a></li>
             <li><a href="#">Return policy</a></li>
         </ul>
-        &copy;COPYRIGHT
-        <i class="fab fa-cc-paypal fa-2x"></i>
-        <i class="fab fa-cc-visa fa-2x"></i>
-        <i class="fab fa-cc-mastercard fa-2x"></i>
+        <div id="copyright">
+            &copy;COPYRIGHT
+        </div>
+        <div class="payment">
+            <i class="fab fa-cc-paypal fa-2x"></i>
+            <i class="fab fa-cc-visa fa-2x"></i>
+            <i class="fab fa-cc-mastercard fa-2x"></i>
+        </div>
     </footer>
     <script>
         var video = document.getElementById("myVideo");
