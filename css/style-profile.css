@@ -364,7 +364,7 @@ img {
 
 /* BOTTOM NAVIGATION - END */
 
-/* BOTTOM NAVIGATION - START */
+/* Modify Buttons - START */
 
 .modify-buttons {
     display: flex;
@@ -378,6 +378,10 @@ img {
     text-transform: uppercase;
 }
 
+.modify-buttons>div:not(:last-child){
+    margin-bottom: 5px;
+}
+
 .modify-buttons div:hover {
     background-color: var(--primary);
 }
@@ -388,7 +392,7 @@ img {
     background-color: var(--light);
 }
 
-/* BOTTOM NAVIGATION - END */
+/* Modify Buttons  - END */
 
 /* Footer - START */
 
